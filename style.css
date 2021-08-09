@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: "Lucida grande";
+}
+
+a {
+	text-decoration: none;
+}
+
+.header-list li {
+	list-style: none;
+	float: left;
+	padding: 23px 30px;
+}
+
+.container {
+	width: 1482px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+header {
+	width: 100%;
+	height: 65px;
+	background-color: rgb(231, 231, 231, 0.6);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+
+}
+
+.header-logo {
+	font-size: 36px;
+	float: left;
+	margin-top: 10px;
+}
+
+.header-list {
+	float: left;
+}
+
+.header-list a:hover {
+	background-color: white;
+}
+
+.header-list a {
+	color: black;
+}
+
+
+.header-login {
+ float: right;
+ background-color: whitesmoke;
+ transition: all 0,5s;
+ height: 65px;
+}
+
+.header-login:hover {
+	background-color: white;
+}
+
+.header-login a {
+	line-height: 65px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: black;
+	display: block;
+}
+
+.main {
+	background-image: url(./greek-vase.png);
+	height: 1200px;
+	padding-bottom: 80px;	
+	text-align: center;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.content-img img {
+	width: 500px;
+	height: 400px;	
+}
+
+.clear {
+	clear: left;
+}
+
+.content-img {
+	float: left;
+	padding: 20px 60px;
+}
+
+.center {
+	padding-left: 100px;
+}
+
+.text-contents {	
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.main-content {
+	line-height: 25px;
+	text-align: justify;
+	padding: 30px 35px;
+
+}
+
+.main-content p {
+	font-size: 15px;
+}
+
+.main-content h3 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.main-list {
+	padding-left: 30px;
+	padding-bottom: 20px;
+
+}
+
+span {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h3 {
+	padding-bottom: 15px;
+}
+
+footer {
+	background-color: whitesmoke;	
+	padding-top: 15px;
+	text-align: start;
+}
+
+footer img {
+	width: 150px;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+footer a {
+  color: #b3aeb5;
+  font-size: 12px;
+  padding-right: 15px;
+}
